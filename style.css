@@ -1,13 +1,14 @@
 .container {
-  max-width: 1800px;
-  padding: 0px 20px;
+  max-width: 1200px;
+  padding: 0px 100px;
   margin: auto;
 }
 
 .sec1 {
   width: 100%;
   height: 35px;
-  background-color: black;
+  position: fixed;
+  color: black;
 }
 .sec1 .sec2 {
   display: flex;
@@ -22,19 +23,18 @@
   padding: 0;
   list-style: none;
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 20px;
 }
 .sec1 .icon ul li {
-  color: white;
   font-size: 13px;
+  color: white;
 }
 .sec1 .number {
   width: 400px;
   height: 30px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   text-align: center;
 }
 .sec1 .number ul {
@@ -53,28 +53,20 @@
   color: white;
 }
 
-.sect3 {
-  width: 100%;
-  height: 60px;
-  background-color: rgb(27, 27, 27);
+.sect4 {
   display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.sect3 .sect4 {
-  display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 100px;
 }
-.sect3 .sect4 .logo {
+.sect4 .logo {
   width: 250px;
 }
-.sect3 .sect4 .menu {
+.sect4 .menu {
   width: 500px;
   height: 50px;
 }
-.sect3 .sect4 .menu ul {
+.sect4 .menu ul {
   padding: 0;
   list-style: none;
   display: flex;
@@ -82,18 +74,18 @@
   align-items: center;
   gap: 20px;
 }
-.sect3 .sect4 .menu ul li {
+.sect4 .menu ul li {
   font-size: 15px;
 }
-.sect3 .sect4 .menu ul li a {
+.sect4 .menu ul li a {
   text-decoration: none;
   color: white;
 }
 
 .sect5 {
   width: 100%;
-  height: 500px;
-  background: url(https://preview.colorlib.com/theme/security/img/header-bg.jpg.webp);
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://preview.colorlib.com/theme/security/img/header-bg.jpg.webp);
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -117,7 +109,7 @@
 .sect5 .btn {
   color: white;
   background-color: goldenrod;
-  border: 1px solid transparent;
+  border: 1px solid goldenrod;
   font-weight: 700;
   font-size: 13px;
   cursor: pointer;
@@ -130,8 +122,6 @@
 
 .sec7 {
   width: 100%;
-  height: 600px;
-  background-color: hotpink;
 }
 .sec7 .sec8 {
   display: flex;
@@ -143,8 +133,6 @@
 .sec7 .basliq {
   margin-top: 20px;
   width: 400px;
-  height: 120px;
-  background-color: aqua;
 }
 .sec7 h3 {
   font-size: 30px;
@@ -161,24 +149,139 @@
 }
 .sec7 .sekil {
   width: 100%;
-  height: 300px;
-  background-color: lightslategrey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.sec7 .sekil .fff {
+  margin-top: 10px;
+  width: 300px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.sec7 .sekil .picture {
+  width: 250px;
+  height: 130px;
+  background: url(https://preview.colorlib.com/theme/security/img/s1.jpg.webp) center;
+  background-size: cover;
+}
+.sec7 .sekil .text3 {
+  width: 250px;
+  height: 150px;
+}
+.sec7 .sekil .text3 h3 {
+  font-size: 15px;
+  text-align: center;
+}
+.sec7 .sekil .text3 a {
+  text-decoration: none;
+  color: black;
+}
+.sec7 .sekil .text3 .text4 {
+  font-size: 15px;
+  margin-top: 0;
+  color: rgb(90, 89, 89);
+}
+.sec7 .sekil .text3 .btn2 {
+  width: 90px;
+  height: 20px;
+}
+.sec7 .sekil .text3 .btn3 {
+  width: 90px;
+  height: 20px;
+}
+.sec7 .sekil .picture1 {
+  width: 250px;
+  height: 130px;
+  background: url(https://preview.colorlib.com/theme/security/img/s2.jpg.webp) center;
+  background-size: cover;
+}
+.sec7 .sekil .picture2 {
+  width: 250px;
+  height: 130px;
+  background: url(https://preview.colorlib.com/theme/security/img/s3.jpg.webp) center;
+  background-size: cover;
+}
+.sec7 .sekil :hover {
+  background-color: goldenrod;
+}
+
+.sect9 {
+  width: 100%;
+}
+.sect9 .sect10 {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
   gap: 20px;
 }
-.sec7 .sekil div {
-  margin-top: 20px;
-  width: 220px;
-  height: 300px;
-  background-color: aqua;
+.sect9 .sect10 .basliq2 {
+  width: 420px;
+}
+.sect9 .sect10 .basliq2 h3 {
+  font-size: 20px;
+  color: #222222;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 600;
+}
+.sect9 .sect10 .basliq2 .text2 {
+  font-size: 15px;
+  margin-top: 0;
+  color: gray;
+  text-align: center;
+}
+.sect9 .sect10 .details {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  background-color: #222222;
+}
+.sect9 .sect10 .details .detailss {
   display: flex;
   justify-content: center;
+  align-items: center;
+  background-color: #f3eeee;
+  padding: 20px;
 }
-.sec7 .sekil .picture {
-  width: 120px;
-  height: 150px;
-  background-color: chocolate;
+.sect9 .sect10 .details .detailss:hover {
+  background-color: aqua;
+}
+.sect9 .sect10 .details .detailss .hhh h3 {
+  font-size: 20px;
+  color: black;
+}
+.sect9 .sect10 .details .detailss .hhh .text4 {
+  color: gray;
+  font-weight: 600;
+}
+
+.bi-list {
+  display: none;
+  color: white;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 968px) {
+  .sect4 .menu {
+    display: none;
+  }
+  .bi-list {
+    display: block;
+  }
+  .sekil {
+    flex-direction: column;
+  }
+  .fff {
+    text-align: center;
+  }
+  .sect9 .container .details {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }/*# sourceMappingURL=style.css.map */

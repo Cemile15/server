@@ -1,12 +1,13 @@
 .container{
-    max-width: 1800px;
-    padding: 0px 20px;
+    max-width: 1200px;
+    padding: 0px 100px;
     margin: auto;
 }
 .sec1{
     width: 100%;
     height: 35px;
-    background-color: black;
+    position: fixed;
+    color: black;
     .sec2{
         display: flex;
         justify-content: space-between;
@@ -19,13 +20,11 @@
             padding: 0;
             list-style: none;
             display: flex;
-            justify-content: center;
             align-items: center;
             gap: 20px;
             li{
-                color: white;
                 font-size: 13px;
-                
+                color: white;
             }
         }
     }
@@ -33,7 +32,7 @@
         width: 400px;
         height: 30px;
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         text-align: center;
         ul{
             padding: 0;
@@ -52,16 +51,9 @@
         }
     }
 }
-.sect3{
-width: 100%;
-height: 60px;
-background-color: rgb(27, 27, 27);
-display: flex;
-justify-content: center;
-align-items: center;
 .sect4{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 100px;
     .logo{
@@ -87,12 +79,11 @@ align-items: center;
     }
     }
 }
-}
 .sect5{
     width: 100%;
-    height: 500px;
+    min-height: 100vh;
     // background-color: hotpink;
-    background: url(https://preview.colorlib.com/theme/security/img/header-bg.jpg.webp);
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://preview.colorlib.com/theme/security/img/header-bg.jpg.webp);
     // background-color: linear-gradient rgba(0, 0, 0, 0,7)  rgba(0, 0, 0, 0,7) url(https://preview.colorlib.com/theme/security/img/header-bg.jpg.webp) center;
     background-size: cover;
     display: flex;
@@ -116,7 +107,7 @@ align-items: center;
     .btn{
         color: white;
         background-color: goldenrod;
-        border: 1px solid transparent;
+        border: 1px solid goldenrod;
         font-weight: 700;
         font-size: 13px;
         cursor: pointer;
@@ -129,8 +120,8 @@ align-items: center;
 }
 .sec7{
     width: 100%;
-    height: 600px;
-    background-color: hotpink;
+    // height: 600px;
+    // background-color: hotpink;
     .sec8{
         display: flex;
         justify-content: center;
@@ -141,8 +132,7 @@ align-items: center;
     .basliq{
         margin-top: 20px;
         width: 400px;
-        height: 120px;
-        background-color: aqua;
+        // height: 120px;
     }
     h3{
         font-size: 30px;
@@ -159,27 +149,176 @@ align-items: center;
 }
 .sekil{
     width: 100%;
-    height: 300px;
-    background-color: lightslategrey;
+    // height: 530px;
+    // background-color: lightslategrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+     .fff{
+        margin-top: 10px;
+        width: 300px;
+        height: 350px;
+        //  background-color: rgb(128, 128, 128);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+   .picture{
+        width: 250px;
+        height: 130px;
+        background: url(https://preview.colorlib.com/theme/security/img/s1.jpg.webp) center;
+        background-size: cover;
+    }
+    .text3{
+        width: 250px;
+        height: 150px;
+        h3{
+            font-size: 15px;
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .text4{
+            font-size: 15px;
+            margin-top: 0;
+            color: rgb(90, 89, 89);
+          
+            
+        }
+        .btn2{
+            width: 90px;
+            height: 20px;
+        }
+        .btn3{
+            width: 90px;
+            height: 20px;
+        }
+    }
+    .picture1{
+        width: 250px;
+        height: 130px;
+        background: url(https://preview.colorlib.com/theme/security/img/s2.jpg.webp) center;
+        background-size: cover;
+    }
+    .picture2{
+        width: 250px;
+        height: 130px;
+        background: url(https://preview.colorlib.com/theme/security/img/s3.jpg.webp) center;
+        background-size: cover;
+    }
+}
+.sekil :hover{
+    background-color: goldenrod;
+}
+}
+.sect9{
+    width: 100%;
+    // height: 620px;
+    // background-color: chocolate;
+    .sect10{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     gap: 20px;
-     div{
-        margin-top: 20px;
-        width: 220px;
-        height: 300px;
-        background-color: aqua;
-        display: flex;
-        justify-content: center;
-        // align-items: center;
+    
+    
+    .basliq2{
+        width: 420px;
+        // height: 90px;
+        // background-color: brown;
+        h3{
+            font-size: 20px;
+            color: #222222;
+            text-align: center;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-family: 600;
+        }
+    .text2{
+        font-size: 15px;
+        margin-top: 0;
+        color: gray;
+        text-align: center;
+    }
 
     }
-    .picture{
-        width: 120px;
-        height: 150px;
-        background-color: chocolate;
+    .details{
+        width: 100%;
+       display: grid;
+       grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        background-color: #222222;
+     
+        .detailss{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f3eeee;
+            padding: 20px;
+
+            &:hover{
+                background-color: aqua;
+            }
+            .hhh{
+                h3{
+                    font-size: 20px;
+                    color: black;
+                }
+                .text4{
+                    color: gray;
+                    font-weight: 600;
+                }
+            }
+            
+            }
+      
     }
+    
 }
+}
+
+
+
+
+
+.bi-list{
+    display: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:968px){
+    .sect4 .menu{
+        display: none;
+    }
+    .bi-list{
+        display: block;
+    }
+
+    .sekil{
+        flex-direction: column;
+    }
+    .fff{
+        text-align: center;
+    }
+    .sect9{
+        .container{
+            .details{
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+    }
+  
 }
