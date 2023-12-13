@@ -3,17 +3,21 @@
         {
             "id":1,
             "image":"https://preview.colorlib.com/theme/security/img/s1.jpg.webp",
-            "name": "Basic & Common Repairs"
+            "name": "Basic & Common Repairs",
+            "desc":"Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical."
         },
         {
             "id":2,
             "image":"https://preview.colorlib.com/theme/security/img/s2.jpg.webp",
-            "name": "Brake Repairs&Services"
+            "name": "Brake Repairs&Services",
+            "desc":"Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical."
+            
         },
         {
             "id":3,
             "image":"https://preview.colorlib.com/theme/security/img/s3.jpg.webp",
-            "name": "Preventive Maintenance"
+            "name": "Preventive Maintenance",
+            "desc":"Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical."
         }
 
     ]

@@ -1,5 +1,5 @@
 const sekiller = document.querySelector('.sekil')
-fetch("http://localhost:3000")
+fetch("http://localhost:3000/security")
 .then(response=>response.json())
 .then(data=>{
     data.forEach(bsekil => {
@@ -8,43 +8,15 @@ fetch("http://localhost:3000")
         <div class="picture"></div>
         <div class="text3">
             <a href="#">
-                <h3>Basic & Common Repairs</h3>
+                <h3>${bsekil.name}</h3>
             </a>
             <p class="text4">
-                Computer users and programmers have become so accustomed to using Windows, even for the
-                changing capabilities and the appearances of the graphical.
+                ${bsekil.desc}
             </p>
-            <input type="button" class="btn2" value="">
-            <input type="button" class="btn3" value="">
+            <button type="button" class="btn2"><a href="./details.html?id=${bsekil.id}">Details</a></button>
+            <button type="button" class="btn3">Delete</button>
         </div>
     </div>
-    <div class="fff">
-        <div class="picture1"></div>
-        <div class="text3">
-            <a href="#">
-                <h3>Brake Repairs&Services</h3>
-            </a>
-            <p class="text4">
-                Computer users and programmers have become so accustomed to using Windows, even for the
-                changing capabilities and the appearances of the graphical.
-            </p>
-            <input type="button" class="btn2" value="">
-            <input type="button" class="btn3" value="">
-        </div>
-    </div>
-    <div class="fff">
-        <div class="picture2"></div>
-        <div class="text3">
-            <a href="#">
-                <h3>Preventive Maintenance</h3>
-            </a>
-            <p class="text4">
-                Computer users and programmers have become so accustomed to using Windows, even for the
-                changing capabilities and the appearances of the graphical.
-            </p>
-            <input type="button" class="btn2" value="">
-            <input type="button" class="btn3" value="">
-        </div>
         `
     });
 })

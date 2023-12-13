@@ -241,7 +241,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  background-color: #222222;
 }
 .sect9 .sect10 .details .detailss {
   display: flex;
@@ -251,7 +250,7 @@
   padding: 20px;
 }
 .sect9 .sect10 .details .detailss:hover {
-  background-color: aqua;
+  background-color: goldenrod;
 }
 .sect9 .sect10 .details .detailss .hhh h3 {
   font-size: 20px;
@@ -260,6 +259,266 @@
 .sect9 .sect10 .details .detailss .hhh .text4 {
   color: gray;
   font-weight: 600;
+}
+
+.sec11 {
+  width: 100%;
+  height: 700px;
+}
+.sec11 .sec12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.sec11 .sec12 .basliq2 {
+  width: 460px;
+}
+.sec11 .sec12 .basliq2 h3 {
+  font-size: 25px;
+  color: #222222;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 600;
+}
+.sec11 .sec12 .basliq2 .text2 {
+  font-size: 18px;
+  margin-top: 0;
+  color: gray;
+  text-align: center;
+}
+.sec11 .sec12 .details2 {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.sec11 .sec12 .details2 .detailss2 {
+  width: 250px;
+  height: 380px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.sec11 .sec12 .details2 .detailss2 .picture3 {
+  width: 250px;
+  height: 130px;
+  background: url(https://preview.colorlib.com/theme/security/img/b1.jpg.webp) center;
+  background-size: cover;
+}
+.sec11 .sec12 .details2 .detailss2 .text5 {
+  width: 250px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.sec11 .sec12 .details2 .detailss2 .text5 .blok {
+  margin-top: 20px;
+  width: 100px;
+  height: 40px;
+  background-color: black;
+}
+.sec11 .sec12 .details2 .detailss2 .text5 .blok .data {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  font-weight: 100;
+}
+.sec11 .sec12 .details2 .detailss2 .text5 .text6 {
+  width: 250px;
+  height: 140px;
+}
+.sec11 .sec12 .details2 .detailss2 .text5 .text6 h3 {
+  font-size: 18px;
+  color: #222222;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: 800;
+}
+.sec11 .sec12 .details2 .detailss2 .text5 .text6 a {
+  text-decoration: none;
+}
+.sec11 .sec12 .details2 .detailss2 .text5 .text6 .text4 {
+  font-size: 15px;
+  margin-top: 0;
+  color: rgb(90, 89, 89);
+}
+.sec11 .sec12 .details2 .detailss2 .text5 .text7 {
+  width: 250px;
+  height: 30px;
+  color: grey;
+}
+.sec11 .sec12 .detailss3 {
+  width: 250px;
+  height: 380px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.sec11 .sec12 .detailss3 .picture4 {
+  width: 250px;
+  height: 130px;
+  background: url(https://preview.colorlib.com/theme/security/img/b2.jpg.webp) center;
+  background-size: cover;
+}
+.sec11 .sec12 .detailss3 .text5 {
+  width: 250px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.sec11 .sec12 .detailss3 .text5 .blok {
+  margin-top: 20px;
+  width: 100px;
+  height: 40px;
+  background-color: black;
+}
+.sec11 .sec12 .detailss3 .text5 .blok .data {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  font-weight: 100;
+}
+.sec11 .sec12 .detailss3 .text5 .text6 {
+  width: 250px;
+  height: 140px;
+}
+.sec11 .sec12 .detailss3 .text5 .text6 h3 {
+  font-size: 18px;
+  color: #222222;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: 800;
+}
+.sec11 .sec12 .detailss3 .text5 .text6 a {
+  text-decoration: none;
+}
+.sec11 .sec12 .detailss3 .text5 .text6 .text4 {
+  font-size: 15px;
+  margin-top: 0;
+  color: rgb(90, 89, 89);
+}
+.sec11 .sec12 .detailss3 .text5 .text7 {
+  width: 250px;
+  height: 30px;
+  color: grey;
+}
+.sec11 .sec12 .detailss4 {
+  width: 250px;
+  height: 380px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.sec11 .sec12 .detailss4 .picture5 {
+  width: 250px;
+  height: 130px;
+  background: url(https://preview.colorlib.com/theme/security/img/b3.jpg.webp) center;
+  background-size: cover;
+}
+.sec11 .sec12 .detailss4 .text5 {
+  width: 250px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.sec11 .sec12 .detailss4 .text5 .blok {
+  margin-top: 20px;
+  width: 100px;
+  height: 40px;
+  background-color: black;
+}
+.sec11 .sec12 .detailss4 .text5 .blok .data {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  font-weight: 100;
+}
+.sec11 .sec12 .detailss4 .text5 .text6 {
+  width: 250px;
+  height: 140px;
+}
+.sec11 .sec12 .detailss4 .text5 .text6 h3 {
+  font-size: 18px;
+  color: #222222;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: 800;
+}
+.sec11 .sec12 .detailss4 .text5 .text6 a {
+  text-decoration: none;
+}
+.sec11 .sec12 .detailss4 .text5 .text6 .text4 {
+  font-size: 15px;
+  margin-top: 0;
+  color: rgb(90, 89, 89);
+}
+.sec11 .sec12 .detailss4 .text5 .text7 {
+  width: 250px;
+  height: 30px;
+  color: grey;
+}
+.sec11 .sec12 .detailss5 {
+  width: 250px;
+  height: 380px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.sec11 .sec12 .detailss5 .picture5 {
+  width: 250px;
+  height: 130px;
+  background: url(https://preview.colorlib.com/theme/security/img/b4.jpg.webp) center;
+  background-size: cover;
+}
+.sec11 .sec12 .detailss5 .text5 {
+  width: 250px;
+  height: 240px;
+  flex-direction: column;
+  gap: 5px;
+}
+.sec11 .sec12 .detailss5 .text5 .blok {
+  margin-top: 20px;
+  width: 100px;
+  height: 40px;
+  background-color: black;
+}
+.sec11 .sec12 .detailss5 .text5 .blok .data {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  font-weight: 100;
+}
+.sec11 .sec12 .detailss5 .text5 .text6 {
+  width: 250px;
+  height: 140px;
+}
+.sec11 .sec12 .detailss5 .text5 .text6 h3 {
+  font-size: 18px;
+  color: #222222;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: 800;
+}
+.sec11 .sec12 .detailss5 .text5 .text6 a {
+  text-decoration: none;
+}
+.sec11 .sec12 .detailss5 .text5 .text6 .text4 {
+  font-size: 15px;
+  margin-top: 0;
+  color: rgb(90, 89, 89);
+}
+.sec11 .sec12 .detailss5 .text5 .text7 {
+  width: 250px;
+  height: 30px;
+  color: grey;
 }
 
 .bi-list {
